@@ -15,6 +15,7 @@
 - 重繪不一定重排
 
 **阻塞主執行緒 Main Tread Blocking**
+
 - 兩者都是同步 Synchronous 操作，執行時會阻塞 JavaScript 執行及使用者互動，頻繁觸發（如 `scroll`）可能導致畫面卡頓
 
 **重排最昂貴，重繪相對便宜，合成最快**
